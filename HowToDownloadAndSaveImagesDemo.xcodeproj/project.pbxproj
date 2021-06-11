@@ -17,6 +17,8 @@
 		AC64660B2672F6A60035A375 /* DownloadingImagesRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64660A2672F6A60035A375 /* DownloadingImagesRow.swift */; };
 		AC64660D2672F7380035A375 /* DownloadingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64660C2672F7380035A375 /* DownloadingImageView.swift */; };
 		AC64660F2672F7B10035A375 /* ImageLoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64660E2672F7B10035A375 /* ImageLoadingViewModel.swift */; };
+		AC6466112672FCBF0035A375 /* PhotoModelCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6466102672FCBF0035A375 /* PhotoModelCacheManager.swift */; };
+		AC6466132672FEB00035A375 /* PhotoModelFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6466122672FEB00035A375 /* PhotoModelFileManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		AC64660A2672F6A60035A375 /* DownloadingImagesRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingImagesRow.swift; sourceTree = "<group>"; };
 		AC64660C2672F7380035A375 /* DownloadingImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingImageView.swift; sourceTree = "<group>"; };
 		AC64660E2672F7B10035A375 /* ImageLoadingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoadingViewModel.swift; sourceTree = "<group>"; };
+		AC6466102672FCBF0035A375 /* PhotoModelCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModelCacheManager.swift; sourceTree = "<group>"; };
+		AC6466122672FEB00035A375 /* PhotoModelFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModelFileManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,8 @@
 			isa = PBXGroup;
 			children = (
 				AC6466082672F1060035A375 /* PhotoModelDataService.swift */,
+				AC6466102672FCBF0035A375 /* PhotoModelCacheManager.swift */,
+				AC6466122672FEB00035A375 /* PhotoModelFileManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -192,9 +198,11 @@
 				AC64660D2672F7380035A375 /* DownloadingImageView.swift in Sources */,
 				AC6466092672F1060035A375 /* PhotoModelDataService.swift in Sources */,
 				AC64660F2672F7B10035A375 /* ImageLoadingViewModel.swift in Sources */,
+				AC6466132672FEB00035A375 /* PhotoModelFileManager.swift in Sources */,
 				AC6465F22672ED2F0035A375 /* HowToDownloadAndSaveImagesDemoApp.swift in Sources */,
 				AC6466072672EFC60035A375 /* PhotoModel.swift in Sources */,
 				AC6466042672ED890035A375 /* ContentViewModel.swift in Sources */,
+				AC6466112672FCBF0035A375 /* PhotoModelCacheManager.swift in Sources */,
 				AC64660B2672F6A60035A375 /* DownloadingImagesRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
