@@ -15,6 +15,7 @@ class ImageLoadingViewModel: ObservableObject {
   let urlString: String
   let imageKey: String
   var cancellables = Set<AnyCancellable>()
+  // TODO: Switch between PhotoModelFileManager.instance and PhotoModelCacheManager to compare RAM usage.
   let manager = PhotoModelFileManager.instance
   
   init(url: String, key: String) {
